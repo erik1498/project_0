@@ -1,4 +1,4 @@
-import Kategori from "./pages/Kategori"
+import Kategori from "./pages/kategori/Kategori"
 
 function App() {
   return (

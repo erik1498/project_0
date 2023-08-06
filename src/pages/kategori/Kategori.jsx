@@ -1,7 +1,7 @@
-import KategoriAddModal from '../components/kategori/KategoriAddModal'
+import KategoriAddModal from './component/KategoriAddModal'
 import { useState, useEffect } from 'react'
-import KategoriListItem from '../components/kategori/KategoriListItem'
-import KategoriUpdateModal from '../components/kategori/KategoriUpdateModal'
+import KategoriListItem from './component/KategoriListItem'
+import KategoriUpdateModal from './component/KategoriUpdateModal'
 import axios from 'axios'
 
 export default function Kategori(){
