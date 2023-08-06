@@ -1,0 +1,121 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 30px;
+}
+
+.mt-3{
+  margin-top: 20px;
+}
+
+.badge{
+  padding: 3px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 3px;
+}
+
+.btn{
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-primary{
+  background-color:rgb(9, 155, 240);
+  color: white;
+}
+
+.btn-transparent{
+  background-color: transparent;
+}
+
+table > thead > tr > td {
+  color: rgb(73, 72, 72);
+}
+
+table > tbody > tr > td {
+  min-height: 20px;
+  height: 20px;
+  padding: 10px 0px 0px 0px;
+}
+
+.icon{
+  margin: 5px;
+  cursor: pointer;
+}
+
+.text-center{
+  text-align: center;
+}
+
+input{
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(121, 121, 121);
+  font-size: 15px;
+  color: rgb(48, 48, 48);
+  width: 100%;
+}
+
+.w-100{
+  width: 100%;
+}
+
+select{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.modal-show{
+  display: block;
+}
+
+.modal-hide{
+  display: none;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 30px;
+}
+
+.modal-header{
+  margin-bottom: 30px;
+}
+
+.modal-body{
+  margin: 20px 0;
+}
+
+.modal-footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.d-flex{
+  display: flex;
+}
