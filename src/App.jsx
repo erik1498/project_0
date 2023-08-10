@@ -11,6 +11,12 @@ import EditStatusTransaksi from "./pages/statusTransaksi/EditStatusTransaksi"
 import Aset from "./pages/aset/Aset"
 import AddAset from "./pages/aset/AddAset"
 import EditAset from "./pages/aset/EditAset"
+import Jabatan from "./pages/jabatan/Jabatan"
+import AddJabatan from "./pages/jabatan/AddJabatan"
+import EditJabatan from "./pages/jabatan/EditJabatan"
+import KategoriJabatan from "./pages/kategoriJabatan/KategoriJabatan"
+import AddKategoriJabatan from "./pages/kategoriJabatan/AddKategoriJabatan"
+import EditKategoriJabatan from "./pages/kategoriJabatan/EditKategoriJabatan"
 
 function App() {
   return (
@@ -29,6 +35,12 @@ function App() {
           <Route path="/aset" element={<Aset />} />
           <Route path="/aset/add" element={<AddAset/>} />
           <Route path="/aset/edit/:id" element={<EditAset/>} />
+          <Route path="/jabatan" element={<Jabatan />} />
+          <Route path="/jabatan/add" element={<AddJabatan/>} />
+          <Route path="/jabatan/edit/:id" element={<EditJabatan/>} />
+          <Route path="/kategori_jabatan" element={<KategoriJabatan />} />
+          <Route path="/kategori_jabatan/add" element={<AddKategoriJabatan/>} />
+          <Route path="/kategori_jabatan/edit/:id" element={<EditKategoriJabatan/>} />
         </Routes>
       </BrowserRouter>
     </>
