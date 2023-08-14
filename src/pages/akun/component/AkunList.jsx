@@ -40,6 +40,8 @@ export default function AkunList() {
                             <tr>
                                 <th>No</th>
                                 <th>Nama</th>
+                                <th>Jabatan</th>
+                                <th>Kategori</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>
@@ -49,6 +51,8 @@ export default function AkunList() {
                                     <tr key={data.id}>
                                         <td>{i + 1}</td>
                                         <td>{data.nama}</td>
+                                        <td>{data.jabatan.nama}</td>
+                                        <td>{data.kategori_jabatan.nama}</td>
                                         <td>
                                             <Link to={`/akun/edit/${data.id}`} className="button is-small is-info">
                                                 <FaPen />
